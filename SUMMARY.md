@@ -7,4 +7,6 @@
   * [Two Sum](array/two-sum.md)
 * [3. Depth-first Search](breadth-first-search.md)
   * [Number of Islands](depth-first-search/number-of-islands.md)
+* [4. Stack](stack.md)
+  * [Valid Parentheses](stack/valid-parentheses.md)
 
