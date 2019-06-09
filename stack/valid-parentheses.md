@@ -1,4 +1,4 @@
-# Valid Parentheses
+# [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 
 ---
 
@@ -9,7 +9,7 @@ An input string is valid if:
 1. Open brackets must be closed by the same type of brackets.
 2. Open brackets must be closed in the correct order.
 
-Note that an empty string is also considered valid.
+Note that an empty string is also considered valid.
 
 ---
 
@@ -21,9 +21,9 @@ class Solution(object):
         :rtype: bool
         """
         stack = []
-        
+
         mapping = {")": "(", "}": "{", "]": "["}
-        
+
         for ch in s:
             if ch in mapping:
                 top = stack.pop() if stack else '#'
@@ -31,7 +31,7 @@ class Solution(object):
                     return False
             else:
                 stack.append(ch)
-        
+
         return not stack
 ```
 

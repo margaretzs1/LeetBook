@@ -1,4 +1,4 @@
-# Number of Island
+# [Number of Island](https://leetcode.com/problems/number-of-islands/)
 
 ---
 
@@ -76,8 +76,6 @@ class Solution(object):
 
 1. Be mindful of data type
 2. self would pass in as the first argument in a private method
-
-
 
 
 
